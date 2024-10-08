@@ -24,3 +24,14 @@ table {
             padding: 10px;
             text-align: center;
 }
+
+footer {
+    display: inline-grid;
+    grid-auto-rows : 200px;
+}
+
+.square {
+    background: #000;
+    width: 50vw;
+    height: 50vw;
+}
