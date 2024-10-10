@@ -33,6 +33,7 @@ public class Client {
         return appropriateFacials;
     }
 
+    @SuppressWarnings("t")
     private boolean checkSkinType(String skinType, String facialType) {
         if (skinType.equals("oily")) {
             if (facialType.equals("Microdermabrasion") || facialType.equals("Rejuvenating")) {
